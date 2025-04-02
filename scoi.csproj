@@ -77,6 +77,12 @@
     <Compile Include="Lr3\BinForm.Designer.cs">
       <DependentUpon>BinForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lr4\PrFilteringForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lr4\PrFilteringForm.Designer.cs">
+      <DependentUpon>PrFilteringForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lr3\BinForm.resx">
       <DependentUpon>BinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lr4\PrFilteringForm.resx">
+      <DependentUpon>PrFilteringForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>

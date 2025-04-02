@@ -1,5 +1,6 @@
 ﻿using lab1.Lr2;
 using lab1.Lr3;
+using lab1.Lr4;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -45,7 +46,10 @@ namespace lab1
 
         private void LR4Button_Click(object sender, EventArgs e)
         {
+            PrFilteringForm prFilteringForm = new PrFilteringForm();
+            prFilteringForm.Show();
 
+            this.Hide();
         }
 
         private void LR5Button_Click(object sender, EventArgs e)
@@ -56,7 +60,7 @@ namespace lab1
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);
-            // Рисуем тонкую границу вокруг формы
+            
             using (Pen borderPen = new Pen(Color.FromArgb(224, 224, 224), 1))
             {
                 e.Graphics.DrawRectangle(borderPen, new Rectangle(0, 0, Width - 1, Height - 1));

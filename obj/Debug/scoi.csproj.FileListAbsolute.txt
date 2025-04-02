@@ -35,3 +35,17 @@ C:\Users\zamoc\Desktop\СЦОИ\ЛР\obj\Debug\scoi.csproj.CoreCompileInputs.cac
 C:\Users\zamoc\Desktop\СЦОИ\ЛР\obj\Debug\lab1.exe
 C:\Users\zamoc\Desktop\СЦОИ\ЛР\obj\Debug\lab1.pdb
 C:\Users\zamoc\Desktop\СЦОИ\ЛР\obj\Debug\lab1.Lr3.BinForm.resources
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\bin\Debug\lab1.exe.config
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\bin\Debug\lab1.exe
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\bin\Debug\lab1.pdb
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\scoi.csproj.AssemblyReference.cache
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.Form1.resources
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.Lr2.GradForm.resources
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.Lr3.BinForm.resources
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.Lr4.PrFilteringForm.resources
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.MenuForm.resources
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.Properties.Resources.resources
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\scoi.csproj.GenerateResource.cache
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\scoi.csproj.CoreCompileInputs.cache
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.exe
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.pdb

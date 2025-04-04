@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\zamoc\\Desktop\\\u0421\u0426\u041E\u0418\\Image-processing\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CCAD611F-CC58-4371-99E9-A698FB980FD9}|scoi.csproj|C:\\Users\\zamoc\\Desktop\\\u0421\u0426\u041E\u0418\\Image-processing\\lr4\\prfilteringform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CCAD611F-CC58-4371-99E9-A698FB980FD9}|scoi.csproj|solutionrelative:lr4\\prfilteringform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCAD611F-CC58-4371-99E9-A698FB980FD9}|scoi.csproj|c:\\users\\zamoc\\desktop\\\u0441\u0446\u043E\u0438\\image-processing\\lr4\\prfilteringform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCAD611F-CC58-4371-99E9-A698FB980FD9}|scoi.csproj|solutionrelative:lr4\\prfilteringform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCAD611F-CC58-4371-99E9-A698FB980FD9}|scoi.csproj|c:\\users\\zamoc\\desktop\\\u0441\u0446\u043E\u0438\\image-processing\\lr3\\binform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCAD611F-CC58-4371-99E9-A698FB980FD9}|scoi.csproj|C:\\Users\\zamoc\\Desktop\\\u0421\u0426\u041E\u0418\\Image-processing\\lr3\\binform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCAD611F-CC58-4371-99E9-A698FB980FD9}|scoi.csproj|solutionrelative:lr3\\binform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCAD611F-CC58-4371-99E9-A698FB980FD9}|scoi.csproj|c:\\users\\zamoc\\desktop\\\u0441\u0446\u043E\u0438\\image-processing\\lr4\\prfilteringform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CCAD611F-CC58-4371-99E9-A698FB980FD9}|scoi.csproj|solutionrelative:lr4\\prfilteringform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BinForm.cs",
               "DocumentMoniker": "C:\\Users\\zamoc\\Desktop\\\u0421\u0426\u041E\u0418\\Image-processing\\Lr3\\BinForm.cs",
               "RelativeDocumentMoniker": "Lr3\\BinForm.cs",
               "ToolTip": "C:\\Users\\zamoc\\Desktop\\\u0421\u0426\u041E\u0418\\Image-processing\\Lr3\\BinForm.cs",
               "RelativeToolTip": "Lr3\\BinForm.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvxMAAAAeAAAA",
+              "ViewState": "AQIAAEwBAAAAAAAAAAAAAFEBAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T15:36:49.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PrFilteringForm.cs",
               "DocumentMoniker": "C:\\Users\\zamoc\\Desktop\\\u0421\u0426\u041E\u0418\\Image-processing\\Lr4\\PrFilteringForm.cs",
               "RelativeDocumentMoniker": "Lr4\\PrFilteringForm.cs",
               "ToolTip": "C:\\Users\\zamoc\\Desktop\\\u0421\u0426\u041E\u0418\\Image-processing\\Lr4\\PrFilteringForm.cs",
               "RelativeToolTip": "Lr4\\PrFilteringForm.cs",
-              "ViewState": "AQIAAL4AAAAAAAAAAAAowM4AAAAxAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAswKoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T15:18:12.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PrFilteringForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\zamoc\\Desktop\\\u0421\u0426\u041E\u0418\\Image-processing\\Lr4\\PrFilteringForm.cs",
               "RelativeDocumentMoniker": "Lr4\\PrFilteringForm.cs",

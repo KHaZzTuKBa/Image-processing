@@ -6,6 +6,7 @@ using System.Linq;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
+using System.Drawing.Drawing2D;
 
 namespace lab1.Lr4
 {
@@ -29,7 +30,6 @@ namespace lab1.Lr4
 
             labelDragDrop = new Label();
             labelDragDrop.Text = "Перетащите изображение на форму";
-            //labelDragDrop.ForeColor = Color.White;
             labelDragDrop.AutoSize = true;
             labelDragDrop.Location = new Point(pictureBox1.Left + 10, pictureBox1.Top + 10);
             this.Controls.Add(labelDragDrop);
@@ -37,16 +37,48 @@ namespace lab1.Lr4
 
             btnDeleteImage = new Button();
             btnDeleteImage.Text = "Удалить изображение";
-            btnDeleteImage.Size = new Size(120, 23);
-            btnDeleteImage.Location = new Point(comboBox1.Left, pictureBox1.Bottom - 23);
+            btnDeleteImage.Size = new Size(120, 30);
+            btnDeleteImage.Location = new Point(comboBox1.Left, pictureBox1.Bottom - 30 - btnDeleteImage.Height);
             btnDeleteImage.Click += BtnDeleteImage_Click;
             btnDeleteImage.Enabled = false;
+            btnDeleteImage.FlatStyle = FlatStyle.Flat;
+            btnDeleteImage.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnDeleteImage.BackColor = Color.FromArgb(240, 128, 128);
+            btnDeleteImage.ForeColor = Color.White;
+            btnDeleteImage.FlatAppearance.BorderSize = 0;
+            btnDeleteImage.FlatAppearance.MouseOverBackColor = Color.FromArgb(200, 70, 70);
+            btnDeleteImage.FlatAppearance.MouseDownBackColor = Color.FromArgb(180, 60, 60);
+            btnDeleteImage.EnabledChanged += (s, e) =>
+            {
+                btnDeleteImage.BackColor = btnDeleteImage.Enabled
+                    ? Color.FromArgb(220, 80, 80)
+                    : Color.FromArgb(240, 128, 128);
+            };
             this.Controls.Add(btnDeleteImage);
+
+
+            // Стилизация основной формы
+            this.BackColor = Color.FromArgb(240, 240, 240);
+            this.Font = new Font("Segoe UI", 9.75F);
+
+            // Стилизация комбо-бокса
+            comboBox1.Font = new Font("Segoe UI", 10F);
+            comboBox1.FlatStyle = FlatStyle.Flat;
+
+            // Стилизация labelDragDrop
+            labelDragDrop.Font = new Font("Segoe UI", 11F, FontStyle.Italic);
+            labelDragDrop.ForeColor = Color.FromArgb(150, 150, 150);
+
+            MenuButton.BackColor = Color.FromArgb(173, 216, 230);
+            MenuButton.Size = new Size(100, 35);
 
             comboBox1.SelectedIndex = 0;
             comboBox1.SelectedIndexChanged += ComboBox1_SelectedIndexChanged;
+
             InitManualPanel();
+
             InitGaussianPanel();
+
             UpdatePanelsVisibility();
         }
 
@@ -180,11 +212,25 @@ namespace lab1.Lr4
 
             Button buttonTransformGaussian = new Button();
             buttonTransformGaussian.Text = "Преобразовать";
-            buttonTransformGaussian.Location = new Point(0, 60);
+            buttonTransformGaussian.Location = new Point(0, 65);
+            buttonTransformGaussian.Width = 150;
+            buttonTransformGaussian.Height = 30;
+            buttonTransformGaussian.BackColor = Color.FromArgb(173, 216, 230);
+            buttonTransformGaussian.ForeColor = Color.White;
             gaussianPanel.Controls.Add(buttonTransformGaussian);
             buttonTransformGaussian.Click += (sender, e) => { ApplyTransformation(); };
 
             gaussianPanel.Visible = false;
+
+            foreach (Control c in gaussianPanel.Controls)
+            {
+                if (c is TextBox tb)
+                {
+                    tb.BorderStyle = BorderStyle.FixedSingle;
+                    tb.Font = new Font("Segoe UI", 9F);
+                    tb.BackColor = Color.FromArgb(245, 245, 245);
+                }
+            }
 
             this.Controls.Add(gaussianPanel);
         }
@@ -257,13 +303,17 @@ namespace lab1.Lr4
                 {
                     UpdateMatrixGrid(h, w);
                 }
-            };
+            };     
 
             UpdateMatrixGrid(3, 3);
 
             Button buttonTransformManual = new Button();
             buttonTransformManual.Text = "Преобразовать";
             buttonTransformManual.Location = new Point(0, 260);
+            buttonTransformManual.Height = 30;
+            buttonTransformManual.Width = 150;
+            buttonTransformManual.BackColor = Color.FromArgb(173, 216, 230);
+            buttonTransformManual.ForeColor = Color.White;
             buttonTransformManual.Click += (sender, e) => { ApplyTransformation(); };
             manualPanel.Controls.Add(buttonTransformManual);
 
@@ -305,6 +355,19 @@ namespace lab1.Lr4
                     cellBox.Dock = DockStyle.Fill;
                     cellBox.Text = "";
                     tableLayoutPanelMatrix.Controls.Add(cellBox, c, r);
+                }
+            }
+
+            foreach (Control c in tableLayoutPanelMatrix.Controls)
+            {
+                if (c is TextBox tb)
+                {
+                    tb.BorderStyle = BorderStyle.None;
+                    tb.BackColor = Color.White;
+                    tb.Font = new Font("Segoe UI", 10F);
+                    tb.Margin = new Padding(1);
+                    tb.Enter += (s, e) => tb.BackColor = Color.FromArgb(240, 240, 240);
+                    tb.Leave += (s, e) => tb.BackColor = Color.White;
                 }
             }
             manualPanel.Controls.Add(tableLayoutPanelMatrix);

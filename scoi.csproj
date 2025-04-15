@@ -35,8 +35,12 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -83,6 +87,12 @@
     <Compile Include="Lr4\PrFilteringForm.Designer.cs">
       <DependentUpon>PrFilteringForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lr5\ChFilteringForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lr5\ChFilteringForm.Designer.cs">
+      <DependentUpon>ChFilteringForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +114,9 @@
     <EmbeddedResource Include="Lr4\PrFilteringForm.resx">
       <DependentUpon>PrFilteringForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lr5\ChFilteringForm.resx">
+      <DependentUpon>ChFilteringForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +129,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

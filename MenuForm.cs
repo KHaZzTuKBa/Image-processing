@@ -1,6 +1,7 @@
 ﻿using lab1.Lr2;
 using lab1.Lr3;
 using lab1.Lr4;
+using lab1.Lr5;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -54,7 +55,10 @@ namespace lab1
 
         private void LR5Button_Click(object sender, EventArgs e)
         {
+            ChFilteringForm chFilteringForm = new ChFilteringForm();
+            chFilteringForm.Show();
 
+            this.Hide();
         }
 
         protected override void OnPaint(PaintEventArgs e)

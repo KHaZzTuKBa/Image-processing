@@ -49,3 +49,7 @@ C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\scoi.csproj.GenerateR
 C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\scoi.csproj.CoreCompileInputs.cache
 C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.exe
 C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.pdb
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\lab1.Lr5.ChFilteringForm.resources
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\bin\Debug\MathNet.Numerics.dll
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\bin\Debug\MathNet.Numerics.xml
+C:\Users\zamoc\Desktop\СЦОИ\Image-processing\obj\Debug\scoi.csproj.Up2Date

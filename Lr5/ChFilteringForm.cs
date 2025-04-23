@@ -313,6 +313,7 @@ namespace lab1.Lr5
 
             if (canUseCooleyTukey)
             {
+                MessageBox.Show("Используется алгоритм Кули-Тьюки");
                 dftRed = DFT2D_CooleyTukey(redChannel);
                 dftGreen = DFT2D_CooleyTukey(greenChannel);
                 dftBlue = DFT2D_CooleyTukey(blueChannel);
@@ -320,6 +321,7 @@ namespace lab1.Lr5
             }
             else
             {
+                MessageBox.Show("Используется обычный алгоритм Фурье");
                 dftRed = DFT2D(redChannel);
                 dftGreen = DFT2D(greenChannel);
                 dftBlue = DFT2D(blueChannel);
